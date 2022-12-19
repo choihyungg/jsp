@@ -1,0 +1,76 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h2 {
+	display: block;
+	margin-top: 65px;
+	text-align: center;
+}
+
+#joinForm {
+    margin: 20px auto;
+    border: 1px solid #cf413e;
+    padding: 30px;
+}
+
+
+#joinForm td {
+	padding: 20px 45px;
+	/* border: 1px solid #000; */
+}
+
+.btnWarp {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	display: block;
+	background: #000;
+	border: 1px solid #000;
+	border-radius: 10px;
+	width: 120px;
+	height: 40px;
+	font-size: 16px;
+	color: #fff;
+	margin: 0 20px 70px 0;
+}
+
+td input:first-child {
+    margin-right: 10px;
+}
+
+#address1 {
+	margin: 5px 0;
+}
+
+.interest {
+	margin: 15px 0;
+}
+
+.birthday1 p {
+	display: inline;
+	margin-right: 15px;
+}
+
+.passwdH {
+	margin-right: 15px;
+	width: 150px;
+}
+
+.email {
+	width: 150px;
+}
+
+.phone {
+	width: 65px;
+}
+
+.sex {
+	width: 100px;
+}
+
