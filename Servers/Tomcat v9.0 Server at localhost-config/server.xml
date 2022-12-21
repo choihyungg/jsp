@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Test" path="/Test" reloadable="true" source="org.eclipse.jst.jee.server:Test"/><Context docBase="1124" path="/1124" reloadable="true" source="org.eclipse.jst.jee.server:1124"/><Context docBase="1128" path="/1128" reloadable="true" source="org.eclipse.jst.jee.server:1128"/><Context docBase="joinform" path="/joinform" reloadable="true" source="org.eclipse.jst.jee.server:joinform"/><Context docBase="1212" path="/1212" reloadable="true" source="org.eclipse.jst.jee.server:1212"/><Context docBase="BookMarket" path="/BookMarket" reloadable="true" source="org.eclipse.jst.jee.server:BookMarket"/></Host>
+      <Context docBase="Test" path="/Test" reloadable="true" source="org.eclipse.jst.jee.server:Test"/><Context docBase="1128" path="/1128" reloadable="true" source="org.eclipse.jst.jee.server:1128"/><Context docBase="joinform" path="/joinform" reloadable="true" source="org.eclipse.jst.jee.server:joinform"/><Context docBase="BookMarket" path="/BookMarket" reloadable="true" source="org.eclipse.jst.jee.server:BookMarket"/><Context docBase="action_tag" path="/action_tag" reloadable="true" source="org.eclipse.jst.jee.server:action_tag"/><Context docBase="1212" path="/1212" reloadable="true" source="org.eclipse.jst.jee.server:1212"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -70,14 +70,6 @@
 		<td ><input type="password" name="passwdC" size="15"></td>
 		</tr>
 		<tr>
-		<td> 비밀번호 힌트 </td>
-		<td><select name="passwdH" class="passwdH"><option value="어릴적 살던 동네는?">어릴적 살던 동네는?</option>
-									<option value="졸업한 초등학교는?">졸업한 초등학교는?</option>
-									<option value="졸업한 초등학교는?">보물 1호는?</option>
-			</select>
-		<input type="text" name="passwdH" placeholder="비밀번호 힌트의 답" size="15"></td>
-		</tr>
-		<tr>
 		<td> 이름 </td>
 		<td ><input type="text" name="memberName" size="10"></td>
 		</tr>
@@ -94,9 +86,11 @@
 		</tr>
 		<tr>
 		<td> 이메일 </td>
-		<td ><input type="text" name="email1" placeholder="아이디 입력" size="15">@
-		<input type="text" name="email2" placeholder="" size="15">
-					<select name="email3" class="email"> <option value="naver.com">naver.com</option>
+		<td ><input type="text" name="email1" placeholder="아이디 입력" size="15">@ 
+		 <input type="text" name="email2" placeholder="직접 입력" size="15">
+					<select name="email3" class="email"> 
+					<option value="">직접 입력</option>
+					<option value="naver.com">naver.com</option>
 					<option value="daum.net">daum.net</option>
 					<option value="hotmail.com">hotmail.com</option>
 					<option value="nate.com">nate.com</option>
@@ -105,8 +99,8 @@
 					<option value="paran.com">paran.com</option>
 					<option value="empas.com">empas.com</option>
 					<option value="dreamwiz.com">dreamwiz.com</option>
-					<option value="dreamwiz.com">dreamwiz.com</option>
-					<option value="직접 입력">직접 입력</option></select></td>
+					<option value="dreamwiz.com">dreamwiz.com</option></select></td>
+					
 		</tr>
 		<tr>
 		<td> 주소 </td>
@@ -134,7 +128,7 @@
 					여성의류<input type="checkbox" name="interest" value="여성의류">
 					신발/잡화<input type="checkbox" name="interest" value="신발/잡화">
 					시계/주얼리<input type="checkbox" name="interest" value="시계/주얼리"></br>
-					디지털/가전<input type="checkbox" name="interest" value="디지털/가전" class="interest">
+					디지털/가전 <input type="checkbox" name="interest" value="디지털/가전" class="interest">
 					스포츠/레저<input type="checkbox" name="interest" value="스포츠/레저">
 					가구/인테리어<input type="checkbox" name="interest" value="가구/인테리어"></br>
 					음반/악기<input type="checkbox" name="interest" value="음반/악기">
@@ -146,15 +140,15 @@
 		</tr>
 		<tr>
 		<td> 메일 수신 여부 </td>
-		<td ><input type="radio" name="mailYN" value="동의">동의 <input type="radio" name="mailYN" value="동의 안함">동의 안함</td>
+		<td ><input type="radio" name="mailYN" value="동의" checked>동의 <input type="radio" name="mailYN" value="동의 안함">동의 안함</td>
 		</tr>
 		<tr>
 		<td> 문자 수신 여부 </td>
-		<td ><input type="radio" name="smsYN" value="동의">동의 <input type="radio" name="smsYN" value="동의 안함">동의 안함</td>
+		<td ><input type="radio" name="smsYN" value="동의" checked>동의 <input type="radio" name="smsYN" value="동의 안함">동의 안함</td>
 		</tr>
 		<tr>
 		<td> 약관 동의 </td>
-		<td><input type="radio" name="termsYN" value="동의">동의 <input type="radio" name="termsYN" value="동의 안함">동의 안함</td>
+		<td><input type="radio" name="termsYN" value="동의" checked>동의 <input type="radio" name="termsYN" value="동의 안함">동의 안함</td>
 		</tr>
 
 	</form>

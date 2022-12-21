@@ -13,14 +13,13 @@ h2 {
 
 #joinForm {
     margin: 20px auto;
-    border: 1px solid #cf413e;
+    border: 1px solid #000;
     padding: 30px;
 }
 
 
 #joinForm td {
 	padding: 20px 45px;
-	/* border: 1px solid #000; */
 }
 
 .btnWarp {

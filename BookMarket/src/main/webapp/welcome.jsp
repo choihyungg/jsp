@@ -17,6 +17,7 @@
 				<%=greeting%>
 			</h3>
 			<hr>
+
 <%@ include file="footer.jsp" %>
 
 </body>
