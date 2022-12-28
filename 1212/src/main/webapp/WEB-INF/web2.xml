@@ -1,0 +1,25 @@
+<web-app>
+	<security-role>
+		<description></description>
+		<role-name>admin</role-name>
+	</security-role>
+	<security-constraint>
+		<display-name>WebMarket Security</display-name>
+		<web-resource-collection>
+			<web-resource-name>WebMarket</web-resource-name>
+			<description></description>
+			<url-pattern>/marketPro/addProduct.jsp</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<description>권한 관리자명</description>
+			<role-name>admin</role-name>
+		</auth-constraint>
+	</security-constraint>
+	<login-config>
+		<auth-method>FORM</auth-method>
+		<form-login-config>
+			<form-login-page>/marketPro/login.jsp</form-login-page>
+			<form-error-page>/marketPro/login_failed.jsp</form-error-page>
+		</form-login-config>
+	</login-config>
+</web-app>
